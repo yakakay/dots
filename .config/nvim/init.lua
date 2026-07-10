@@ -31,6 +31,7 @@ vim.pack.add({ 'https://github.com/lewis6991/gitsigns.nvim' })
 -- lsp
 vim.pack.add({ 'https://github.com/neovim/nvim-lspconfig' })
 vim.lsp.enable('gopls')
+vim.lsp.enable('rust_analyzer')
 
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition)
 vim.keymap.set('n', '<leader>fr', vim.lsp.buf.format)
