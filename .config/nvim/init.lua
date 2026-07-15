@@ -1,6 +1,24 @@
 vim.g.mapleader = ' ';
 vim.g.maplocalleader = ' ';
 
+vim.o.number = true;
+vim.o.relativenumber = true;
+
+vim.o.mouse = 'a'
+
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.o.hlsearch = false;
+
+vim.o.splitright = true
+vim.o.splitbelow = true
+
+vim.o.updatetime = 250
+vim.o.timeoutlen = 300
+
+vim.o.cursorline = true
+vim.o.scrolloff = 8
+
 -- oil
 vim.pack.add({ 'https://github.com/stevearc/oil.nvim' })
 require('oil').setup()
